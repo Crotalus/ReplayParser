@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "debugType": "portable"
+  },
+
+  "dependencies": {
+    "Newtonsoft.Json": "9.0.2-beta1"
+    /*
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.1.0-preview1-001100-00"
+    }
+    */
+  },
+
+  "frameworks": {
+    "netcoreapp1.1": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+        "type": "platform",
+        "version": "1.1.0-preview1-001100-00"
+        }
+      }
+      //"imports": "dnxcore50"
+    }
+  },
+
+  "tooling": {
+    "defaultNamespace": "ReplayParser"
+  },
+  
+  /*
+  "runtimes": {
+    "win7-x64": { }
+  }
+  */
+}
